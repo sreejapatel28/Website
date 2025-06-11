@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+                                   initial-scale=1.0">
+    <title>HTML Table with Rowspan and Colspan</title>
+    <style>
+        h1,
+        h3 {
+            text-align: center;
+            color: green;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid #100808;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 2px solid rgb(126, 5, 49);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Course</th>
+                <th>id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Srija</td>
+                <td rowspan="2">Java</td>
+                <td>11</td>
+                <td rowspan="2">1</td>
+            </tr>
+            <tr>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sri</td>
+                <td rowspan="2">c++</td>
+                <td>3</td>
+                <td rowspan="2">2</td>
+            </tr>
+            <tr>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sreeja</td>
+                <td rowspan="2">Python</td>
+                <td>5</td>
+                <td rowspan="2">3</td>
+            </tr>
+            <tr>
+                <td>A</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
+    
